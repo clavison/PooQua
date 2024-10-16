@@ -19,6 +19,7 @@ class FarmaciaTest {
 		f.getPessoas().clear();
 		f.getPrescricoes().clear();
 		
+		
 		f.adicionaPaciente(new Pessoa("P1", "S1"));
 		f.adicionaPaciente(new Pessoa("P2", "S2"));
 		f.adicionaPaciente(new Pessoa("P3", "S2"));
