@@ -8,7 +8,7 @@ public class Perfumaria extends Produto{
 	
 	@Override
 	public boolean vender(Cliente c, int qtd) {
-		if(getEstoque() <= qtd && c.getSaldo() < 100) {
+		if(getEstoque() >= qtd && c.getSaldo() < 100) {
 			return super.vender(c, qtd);
 		}
 		return false;
