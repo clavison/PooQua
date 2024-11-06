@@ -12,9 +12,12 @@ public class TesteConstrutor {
 		metodoQueEsperaPai(p1);
 		metodoQueEsperaPai(o1);
 		
-		Operario o2 = (Operario) p1;
-		metodoQueEsperaFilho(o2);
+		
 		metodoQueEsperaFilho(o1);
+		//metodoQueEsperaFilho(p1);
+		
+		Operario o3 = (Operario) p1;
+		metodoQueEsperaFilho(o3);
 	}
 	
 	private static void metodoQueEsperaPai(Pessoa p) {
