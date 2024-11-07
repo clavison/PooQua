@@ -2,6 +2,10 @@ package heranca.banco;
 
 public class ContaUniversitaria extends Conta{
 	
+	public ContaUniversitaria(int nr, int agencia) {
+		super(nr, agencia);
+	}
+	
 	@Override
 	public boolean saque(double vl) {
 		if(vl <= getSaldo()) {
